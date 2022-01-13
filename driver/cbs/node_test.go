@@ -15,6 +15,7 @@ import (
 	"github.com/tencentcloud/kubernetes-csi-tencentcloud/driver/util"
 )
 
+// new
 func newFakeMounter() *mount.FakeMounter {
 	return &mount.FakeMounter{
 		MountPoints: []mount.MountPoint{},
